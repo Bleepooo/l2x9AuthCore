@@ -1,0 +1,43 @@
+# l2x9AuthCore v2.2.0
+
+# Base Options
+Time: 60 # Amount (in seconds) of time we will allow the player to stay in auth
+Freeze: true # Should we freeze the player in place?
+World: 'world_the_end' # World to freeze the player in
+X: 200
+Y: 256
+Z: 200
+Force-Gamemode: true # Should we force the players gamemode?
+Gamemode: 'spectator' # Gamemode to force the player in
+Hide-Connection-Messages: true # Hide Join/Leave messages?
+Hide-Players: true # Hide players from one and other
+Sound: true # Play the leveling up sound to the player every second?
+Prevent-Chat: true # Prevent players from chatting?
+Prevent-Commands: true # Prevent players from running commands?
+Enabled-Cmds: # Commands to keep enabled for players to Login/Register
+  - '/help'
+  - '/register'
+  - '/login'
+
+# English Messages
+English:
+  Timeout: "&cYou took too long to login." # Message that we send the player at login timeout
+  Message: "&6&lPlease login or register to play &3&ll2&b&lx9 &4&l{time}" # Message we display above the hotbar
+
+#Spanish Messages
+Spanish:
+  Enabled: false
+  Timeout: "&cHas tardado demasiado en autenticarte" # Message that we send the player at login timeout
+  Message: "&6&lPor favor, regístrate o logueate para jugar &3&ll2&b&lx9 &4&l{time}" # Message we display above the hotbar
+
+Tablist:
+  Header:
+    - "&3&ll2&b&lx9"
+    - "&r"
+    - "&6Please login or register to play"
+    - "&r"
+  Footer:
+    - "&r"
+    - "&7Contact: Bleepo#2737"
+    - "&7Website: https://www.l2x9.dev"
+    - "&7Discussion: https://discord.gg/aMe4GnGPQ8"

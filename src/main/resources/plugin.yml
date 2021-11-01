@@ -1,0 +1,7 @@
+name: L2x9AuthCore
+version: '${project.version}'
+main: dev.bleepo.l2x9authcore.Main
+commands:
+  bat:
+    description: Core Command
+    usage: /<command> <arg>
