@@ -8,7 +8,7 @@ import org.bukkit.event.player.AsyncPlayerChatEvent;
 public class PreventChat implements Listener, Instance {
     @EventHandler
     public void onChat(AsyncPlayerChatEvent e) {
-        if (config.getBoolean("Crevent-chat")) {
+        if (config.getBoolean("Prevent-chat")) {
             e.setCancelled(true);
         }
     }
